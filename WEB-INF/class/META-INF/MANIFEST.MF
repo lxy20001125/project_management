@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: sun.plugin2.applet.viewer.Applet2Viewer
+Class-Path: jstl.jar standard.jar servlet-api.jar c3p0-0.9.1.2.jar mybat
+ is-3.5.7.jar commons-io-1.4.jar commons-dbutils-1.4.jar commons-logging
+ -1.1.1.jar commons-beanutils-1.8.3.jar commons-fileupload-1.2.1.jar mys
+ ql-connector-java-5.1.40-bin.jar jstl.jar standard.jar servlet-api.jar 
+ c3p0-0.9.1.2.jar mybatis-3.5.7.jar commons-io-1.4.jar commons-dbutils-1
+ .4.jar commons-logging-1.1.1.jar commons-beanutils-1.8.3.jar commons-fi
+ leupload-1.2.1.jar mysql-connector-java-5.1.40-bin.jar
+

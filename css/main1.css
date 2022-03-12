@@ -1,0 +1,118 @@
+/* Note: This example only works with Windows Insider Preview Builds 16237+ or the Fall Creators Update. */
+*{
+margin:0;
+padding: 0;
+}
+#page{
+
+}
+
+body {
+    font-family: segoe-ui_normal, Segoe UI, Segoe, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+    grid-template-rows: 100px 2100px 50px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-gap: 2px;
+    height: 100vh;
+    position: relative;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        grid-template-areas:
+                'header'
+                'nav'
+                'section'
+                'aside'
+                'footer';
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 50px minmax(300px,2100px) 50px 80px;
+    }
+    .aside-left,.aside-right,.main{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+}
+
+
+header {
+    background: linear-gradient(rgba(255, 255, 255,0.5),rgba(255, 255, 255 ,0.8));
+    width: 100%;
+    /*background-color: #ffffff;*/
+    /*background: transparent;*/
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 3px 0;
+}
+nav {
+
+    /*background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/bg.gif);*/
+    grid-area: nav;
+}
+
+section {
+    /*background: #ABABAB;*/
+    background: rgba(88,138,213,0.1);
+    grid-area: section;
+}
+section #parent{
+    display: block;
+}
+
+aside {
+    /*background: #C9BFBF;*/
+    grid-area: aside;
+}
+
+footer {
+    background: #707070;
+    grid-area: footer;
+}
+
+header, nav, section, aside, footer {
+    padding: 2px;
+}
+#divmenu li{
+    display: inline-flex;
+}
+#uls li{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+}
+#name span{
+    font-family: 隶书;
+    font-size: 20px;
+    bottom: 10px;
+    color: crimson;
+    position: relative;
+}
+.footer {
+    padding:  0;
+    background-color: #262626;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #333333;
+}
+.footer li{
+    display: block;
+    color: #777777;
+
+}
+#divmenu a{
+    color: #777777;
+}
+.table a{
+    text-decoration: none;
+}
+.table li{
+    list-style: none;
+}

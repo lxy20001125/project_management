@@ -1,0 +1,203 @@
+
+/*===================================My css==============================================================*/
+/*li{*/
+    /*text-align: right;*/
+
+    /*margin-right: 10px;*/
+    /*width: 80px;*/
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    /*display: block;*/
+/*}*/
+li{
+    display: inline-flex;
+    text-decoration: none;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.headeer{
+    height: 90px;
+    width:100%;
+    /*display: flex;*/
+    /*flex: 0;*/
+    /*flex-basis: 200px;*/
+    box-shadow: 0 0 5px 0  #777777;
+    background: rgba(102,102,102,0.3);
+}
+#box{
+    flex-direction: row;
+}
+#logo{
+    height:90px;
+    width:60%;
+    /*display: flex;*/
+}
+#name{
+    /*flex-flow: row;*/
+    position: relative;
+    /*flex: 1;*/
+    /*left: 280px;*/
+    left: 50px;
+    cursor: default;
+ }
+#divmenu{
+    width: 500px;
+    height: auto;
+    /*display: flex;*/
+    /*justify-content:flex-end;*/
+    /*align-content: space-around;*/
+    margin-top: 30px;
+}
+#divmenu li{
+    list-style: none;
+    float: left;
+    display: inline;
+    /*padding: 0 10px 0 10px;*/
+    margin-left: 10px;
+    /*display: flex;*/
+    /*align-content: flex-start;*/
+}
+#divmenu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #777777;
+    /*!*border-top-style: solid;*!*/
+    /*display:flex;*/
+    border-top-width: 4px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.but{
+    padding-top: 20px;
+    padding-right: 500px;
+}
+span{
+    /*font-style: ;*/
+    font-family: 隶书;
+    /*font-size: 75px;*/
+    font-size: 15px;
+    bottom: 10px;
+    color: crimson;
+    position: relative;
+}
+.hr{
+    height: 15px;
+    border: 1px;
+    box-shadow:0 0 1px 0 #CCCCCC;
+    background: rgba(189,255,83,0.29);
+}
+
+
+/*=========================================================================*/
+
+#parent{
+    /*position: relative;*/
+    /*margin: 50px auto;*/
+    /*width: 80%;*/
+    background-color: #f1f1f1;
+    height: 450px;
+    position: relative;
+    width: 80%;
+    left:50px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+#uls{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#img_ul{
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+    width: 100%;           /*多留出一张图片的宽度！*/
+    display: block;
+
+}
+#img_ul li{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#img_ul li img{
+     width: 100%;
+     height: 100%;
+     display:block;
+ }
+
+#img_ul li image.
+
+#Cir_ul{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    list-style: none;
+}
+#Cir_ul li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border:1px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-left:10px ;
+    background-color: #999;
+    cursor: pointer;
+    color: #f9f5fc;
+}
+
+li.active{
+    background-color: white;
+}
+li.quiet{
+    background-color: #1e90ff;
+}
+
+#buttons{
+    /*display: none;*/
+}
+#buttons span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family:宋体;
+    font-size: 30px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    cursor: pointer;
+    color: #fff;
+    background: black;
+}
+#left{
+    left: 5px;
+}
+#right{
+    left: 100%;
+    margin-left: -45px;
+}
+
+/*---------------------------------------------*/
+.footer {
+    padding:  0;
+    background-color: #262626;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #333333;
+}
+.footer li{
+    display: block;
+    color: #777777;
+}
